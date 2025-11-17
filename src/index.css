@@ -192,3 +192,91 @@ section h2 {
     color: #39B54A;
     font-weight: bold;
 }
+
+/* ============================================
+   Estilos table
+   ============================================ */
+
+.table-container {
+    overflow-x: auto;
+    margin-top: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.table thead {
+    background: linear-gradient(135deg, #39B54A 0%, #2d8f3a 100%);
+    color: white;
+}
+
+.table th {
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.table td {
+    padding: 1rem;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 0.9rem;
+}
+
+.table tbody tr:hover {
+    background-color: #f7fafc;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 0.35rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.status-exitoso {
+    background: #d4edda;
+    color: #155724;
+}
+
+.status-fallido {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+/* ============================================
+   Estilos practicas
+   ============================================ */
+.practices-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.practice-item {
+    background: white;
+    border-left: 4px solid #39B54A;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.practice-item h3 {
+    color: #2d3748;
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+}
+
+.practice-item p {
+    color: #718096;
+    font-size: 0.9rem;
+}
