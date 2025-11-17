@@ -6,6 +6,7 @@ import SoftwareDescription from "./components/SoftwareDescription";
 import GoodPractices from "./components/GoodPractices";
 import ResourcesSummary from "./components/ResourcesSummary";
 import TestsSection from "./components/TestsSection";
+import BitacoraSection from "./components/BitacoraSection";
 
 // Componente principal de la aplicación
 export default function App (){
@@ -17,6 +18,7 @@ export default function App (){
             <GoodPractices />
             <ResourcesSummary />
             <TestsSection />
+            <BitacoraSection />
         </div>
     )
 }
