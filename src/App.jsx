@@ -7,6 +7,7 @@ import GoodPractices from "./components/GoodPractices";
 import ResourcesSummary from "./components/ResourcesSummary";
 import TestsSection from "./components/TestsSection";
 import BitacoraSection from "./components/BitacoraSection";
+import Footer from "./components/Footer";
 
 // Componente principal de la aplicación
 export default function App (){
@@ -19,6 +20,7 @@ export default function App (){
             <ResourcesSummary />
             <TestsSection />
             <BitacoraSection />
+            <Footer />
         </div>
     )
 }
