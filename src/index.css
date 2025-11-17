@@ -89,3 +89,42 @@ section h2 {
     font-weight: 700;
     letter-spacing: 2px;
 }
+
+/* ============================================
+   Estilos SECCIONES
+   ============================================ */
+
+.section {
+    background: white;
+    margin: 2rem 0;
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    animation: fadeIn 0.6s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.section-title {
+    color: #39B54A;
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 3px solid #39B54A;
+}
+
+.section-content {
+    color: #4a5568;
+    font-size: 1rem;
+    line-height: 1.8;
+}
