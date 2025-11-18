@@ -58,7 +58,7 @@ section h2 {
    Estilos Header
    ============================================ */
 .header {
-    background: linear-gradient(135deg, #8b938c 0%, #305895 100%);
+    background: linear-gradient(135deg, #4de460 0%, #1d6fed 100%);
     color: white;
     padding: 2rem 0;
     box-shadow: 0 4px 12px rgba(57, 181, 74, 0.2);
@@ -116,11 +116,13 @@ section h2 {
 
 .section-title {
     color: #39B54A;
+    text-align: left;
     font-size: 1.75rem;
     font-weight: 700;
+    margin-left: 0;
     margin-bottom: 1.5rem;
     padding-bottom: 0.75rem;
-    border-bottom: 3px solid #39B54A;
+    border-bottom: 3px solid #8ad5e8;
 }
 
 .section-content {
