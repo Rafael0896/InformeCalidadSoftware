@@ -7,26 +7,32 @@ const GoodPractices = () => (
             <div className="practice-item">
                 <h3> ISO/IEC 25010</h3>
                 <p>
-                    Evaluación basada en características como funcionalidad, confiabilidad
-                    y mantenibilidad.
+                    Evaluación de calidad del producto basada en características como funcionalidad,
+                    confiabilidad, usabilidad, eficiencia, mantenibilidad y portabilidad.
                 </p>
             </div>
 
             <div className="practice-item">
                 <h3> ISTQB</h3>
-                <p>Técnicas de pruebas: caja negra, caja blanca y basadas en riesgos.</p>
+                <p>
+                    Aplicación de técnicas de pruebas del International Software Testing Qualifications Board,
+                    incluyendo pruebas de caja negra, caja blanca y pruebas basadas en riesgos.
+                </p>
             </div>
 
             <div className="practice-item">
                 <h3> Scrum</h3>
-                <p>Pruebas continuas dentro de los sprints y validación con Product Owner.</p>
+                <p>
+                    Integración de pruebas continuas dentro de los sprints, con sesiones de refinamiento
+                    y validación constante con el Product Owner.
+                </p>
             </div>
 
             <div className="practice-item">
                 <h3> Buenas Prácticas Generales</h3>
                 <p>
-                    Automatización, CI/CD, documentación, trazabilidad y gestión de
-                    defectos.
+                    Automatización de pruebas, integración continua, documentación detallada,
+                    trazabilidad de requisitos y gestión de defectos.
                 </p>
             </div>
         </div>

@@ -18,7 +18,8 @@ const ResourcesSummary = () => (
                 <ul className="card-list">
                     <li>Densidad de defectos</li>
                     <li>Cobertura de código</li>
-                    <li>Tasa de éxito</li>
+                    <li>Casos de prueba ejecutados</li>
+                    <li>Tasa de éxito de pruebas</li>
                 </ul>
             </Card>
 
@@ -31,12 +32,29 @@ const ResourcesSummary = () => (
                 </p>
             </Card>
 
+            <Card title="Fidelidades de Medición" icon="">
+                <p>
+                    Nivel de confianza: 95%<br/>
+                    Margen de error: ±3%<br/>
+                    Repetibilidad: Alta
+                </p>
+            </Card>
+
+            <Card title="Criterios de Aprobación" icon="">
+                <ul className="card-list">
+                    <li>Cobertura ≥ 80%</li>
+                    <li>Defectos críticos: 0</li>
+                    <li>Tasa éxito ≥ 95%</li>
+                    <li>Tiempo respuesta &lt; 3s</li>
+                </ul>
+            </Card>
+
             <Card title="Infraestructura" icon="">
                 <ul className="card-list">
-                    <li>AWS EC2</li>
-                    <li>PostgreSQL</li>
-                    <li>Jenkins</li>
-                    <li>Selenium</li>
+                    <li>Servidor QA: AWS EC2</li>
+                    <li>Base de datos: PostgreSQL</li>
+                    <li>CI/CD: Jenkins</li>
+                    <li>Automatización: Selenium</li>
                 </ul>
             </Card>
         </div>
