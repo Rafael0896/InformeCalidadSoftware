@@ -5,7 +5,7 @@ import Card from "./Card";
 const ResourcesSummary = () => (
     <Section title="Resumen de Recursos Utilizados">
         <div className="cards-grid">
-            <Card title="Equipo Evaluador" icon="👥">
+            <Card title="Equipo Evaluador" icon="">
                 <ul className="card-list">
                     <li>Líder QA: María González</li>
                     <li>Tester Senior: Carlos Ramírez</li>
@@ -14,7 +14,7 @@ const ResourcesSummary = () => (
                 </ul>
             </Card>
 
-            <Card title="Métricas Utilizadas" icon="📊">
+            <Card title="Métricas Utilizadas" icon="">
                 <ul className="card-list">
                     <li>Densidad de defectos</li>
                     <li>Cobertura de código</li>
@@ -22,7 +22,7 @@ const ResourcesSummary = () => (
                 </ul>
             </Card>
 
-            <Card title="Ponderación" icon="⚖️">
+            <Card title="Ponderación" icon="">
                 <p>
                     Funcionalidad: 40%<br/>
                     Rendimiento: 25%<br/>
@@ -31,7 +31,7 @@ const ResourcesSummary = () => (
                 </p>
             </Card>
 
-            <Card title="Infraestructura" icon="🖥️">
+            <Card title="Infraestructura" icon="">
                 <ul className="card-list">
                     <li>AWS EC2</li>
                     <li>PostgreSQL</li>
